@@ -1,0 +1,43 @@
+.services-container {
+    margin-top: 30px;
+    padding: 0 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .services-header {
+    margin-bottom: 40px;
+  }
+  .services {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 0;
+  }
+  
+  .service-item {
+    flex: 1;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .service-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .service-content h1 {
+    font-size: 18px;
+    color: #3b71fe;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .service-content p {
+    font-size: 14px;
+    font-weight: 300;
+  }

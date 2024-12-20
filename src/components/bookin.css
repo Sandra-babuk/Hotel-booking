@@ -1,0 +1,56 @@
+/* bookin.css */
+
+.modal-header {
+  background-color: #5a67d8;
+  color: #fff;
+  border-bottom: none;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+}
+
+.modal-body {
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.modal-footer {
+  border-top: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-button {
+  background-color: #48bb78;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.custom-button:hover {
+  background-color: #38a169;
+}
+
+.custom-input {
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.alert-success {
+  background-color: #48bb78;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.alert-error {
+  background-color: #e53e3e;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
